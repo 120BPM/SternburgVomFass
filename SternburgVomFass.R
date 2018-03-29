@@ -2,4 +2,4 @@ setwd("//clapton.wiwi.hu-berlin.de/irtg/IRTG/R2/SternburgVomFass")
 
 Sternburg = read.csv2("~/Desktop/HeartWatch/HeartWatchDetail.csv")
 date = substr(Sternburg$Datum, 1,10)
-boxplot(Sternburg$bpm~date, ylab="bpm")
+boxplot(Sternburg$bpm~date, ylab="BPM")
